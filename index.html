@@ -1,221 +1,246 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Portafolio | Luis Alejandro Castillo Vessi</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <head>
+        <title>Portafolio | Luis Alejandro Castillo Vessi</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+        
+        <!-- CSS agregado para el efecto de alzado -->
+        <style>
+            .image.fit, .image.main {
+                transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+                border-radius: 4px; /* Opcional: suaviza las esquinas */
+            }
+            .image.fit:hover, .image.main:hover {
+                transform: translateY(-8px) !important;
+                box-shadow: 0 15px 30px rgba(0,0,0,0.2) !important;
+                z-index: 10;
+            }
+        </style>
+    </head>
+    <body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <!-- Wrapper -->
+            <div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Luis Alejandro<br />
-						Castillo Vessi</h1>
-						<p>"Soy estudiante de Ingeniería en Computación en la Universidad Autónoma de San Luis Potosí. 
-							Actualmente me desempeño como becario del laboratorio LESD en el área de ciencias de la computación y 
-							como profesor de aula maker en la escuela primaria Steve Jobs. Me apasiona el desarrollo de software y 
-							el diseño de firmware de bajo nivel usando C#, Python y ensamblador AVR en entornos como Microchip Studio, 
-							así como la integración de hardware utilizando plataformas como Arduino, Raspberry Pi y microcontroladores ATMega."</p>
-						<ul class="actions">
-							<!-- Botón principal para descargar el CV -->
-							<li><a href="LuisAlejandroCastilloVessi - CV.pdf" target="_blank" class="button primary">Descargar CV</a></li>
-							<!-- Flecha hacia abajo para seguir explorando -->
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continuar</a></li>
-						</ul>
-					</div>
+                <!-- Intro -->
+                    <div id="intro">
+                        <h1>Luis Alejandro<br />
+                        Castillo Vessi</h1>
+                        <p>"Soy estudiante de Ingeniería en Computación en la Universidad Autónoma de San Luis Potosí. 
+                            Actualmente me desempeño como becario del laboratorio LESD en el área de ciencias de la computación y 
+                            como profesor de aula maker en la escuela primaria Steve Jobs. Me apasiona el desarrollo de software y 
+                            el diseño de firmware de bajo nivel usando C#, Python y ensamblador AVR en entornos como Microchip Studio, 
+                            así como la integración de hardware utilizando plataformas como Arduino, Raspberry Pi y microcontroladores ATMega."</p>
+                        <ul class="actions">
+                            <!-- Botón principal para descargar el CV -->
+                            <li><a href="LuisAlejandroCastilloVessi - CV.pdf" target="_blank" class="button primary">Descargar CV</a></li>
+                            <!-- Flecha hacia abajo para seguir explorando -->
+                            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continuar</a></li>
+                        </ul>
+                    </div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portafolio</a>
-					</header>
+                <!-- Header -->
+                    <header id="header">
+                        <a href="javascript:void(0);" class="logo">Portafolio</a>
+                    </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<!-- Pestaña principal -->
-							<li class="active"><a href="index.html">Proyectos</a></li>
-							<!-- Pestaña convertida en botón para el CV -->
-							<li><a href="LuisAlejandroCastilloVessi - CV.pdf" target="_blank">📄 Descargar CV</a></li>
-						</ul>
-						<ul class="icons">
-					   <!-- <li><a href="https://www.facebook.com/luisalejandro.castillovessi" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/alex_vssi/?hl=es" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>          -->
-							<li><a href="https://www.linkedin.com/in/alex-vessi-10bb643b2/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/elaletsvessi" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+                <!-- Nav -->
+                    <nav id="nav">
+                        <ul class="links">
+                            <!-- Pestaña principal -->
+                            <li class="active"><a href="index.html">Proyectos</a></li>
+                            <!-- Pestaña convertida en botón para el CV -->
+                            <li><a href="LuisAlejandroCastilloVessi - CV.pdf" target="_blank">📄 Descargar CV</a></li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/alex-vessi-10bb643b2/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/elaletsvessi" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </nav>
 
-				<!-- Main -->
-					<div id="main">
+                <!-- Main -->
+                    <div id="main">
 
-						<!-- Featured Post -->
+                        <!-- Featured Post -->
 						<article class="post featured">
 							<header class="major">
 								<span class="date">Proyecto Actual - En Desarrollo</span>
-								<h2><a href="#">Lentes Inteligentes<br />
-								de Asistencia Integrada</a></h2>
+								<!-- Eliminamos la etiqueta <a> por completo para neutralizar el clic -->
+								<h2>Lentes Inteligentes<br />
+								de Asistencia Integrada</h2>
 								<p>Sistema wearable basado en Raspberry Pi 4 Model B con visión computacional. <br />
 								Cuenta con traducción en tiempo real de lenguaje de señas a voz mediante procesamiento de imágenes, <br />
 								y un modo de análisis de entorno como auxiliar de navegación para personas con discapacidad visual.</p>
 							</header>
-							<!-- AQUÍ CAMBIAS LA IMAGEN -->
-							<a href="#" class="image main"><img src="images/pic02.jpg" alt="Prototipo de lentes inteligentes con Raspberry Pi 4" /></a>
+							
+							<!-- Imagen decorativa con la animación de alzado lista -->
+							<a href="javascript:void(0);" class="image main"><img src="lentes.jpg" alt="Prototipo de lentes inteligentes con Raspberry Pi 4" /></a>
+							
 							<ul class="actions special">
-								<li><a href="#" class="button large">Ver Arquitectura</a></li>
+								<!-- El botón ahora abre el pop-up en lugar de saltar hacia arriba -->
+								<li><a href="lentes.jpg" data-lightbox="galeria-lentes" data-title="Prototipo de lentes inteligentes con Raspberry Pi 4" class="button large">Ver Galería</a></li>
 							</ul>
 						</article>
 
-						<!-- Posts -->
-						<section class="posts">
+                        <!-- Posts -->
+                        <section class="posts">
+                            
+                            <!-- Proyecto 2: Desarrollo y Firmware -->
+                            <article>
+                                <header>
+                                    <span class="date">Software y Firmware</span>
+                                    <h2><a href="javascript:void(0);">Optimización de<br />
+                                    Sistemas y Escritorio</a></h2>
+                                </header>
+                                <!-- Imagen sin el target="_blank" -->
+                                <a href="javascript:void(0);" class="image fit"><img src="navegador de rutas.jpg" alt="Codigo fuente y hardware" /></a>
+                                <p>Desarrollo de aplicaciones de escritorio en C# con rutinas personalizadas para la gestión del sistema de archivos (optimizando la lógica del método guardar). Programación de firmware de bajo nivel en ensamblador AVR utilizando Microchip Studio, implementando soluciones directas y eficientes desde cero sin depender de directivas de macros convencionales.</p>
+                                <ul class="actions special">
+                                        <li><a href="bloc de notas.jpg" data-lightbox="galeria-software" data-title="Bloc de notas en C# (Windows Forms). Optimización del método guardar. <a href='https://github.com/elaletsvessi/Bloc-de-notas' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" class="button">Ver Proyectos Destacados</a></li>
+                                </ul>
+                                <a href="editor de grafos.jpg" data-lightbox="galeria-software" data-title="Implementación de algoritmos de grafos, recorridos y diferentes cálculos en tiempo real, con interfaz gráfica semi asistida en C# (Windows Forms). <a href='https://github.com/elaletsvessi/Editor-de-grafos' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+								<a href="navegador de rutas.jpg" data-lightbox="galeria-software" data-title="Aplicación web interactiva diseñada para calcular y visualizar trayectorias optimizadas entre un punto de origen y un destino. El proyecto se centra en ofrecer una experiencia fluida de mapeo digital, limitando geográficamente las búsquedas a San Luis Potosí para garantizar una mayor precisión local.. <a href='https://github.com/elaletsvessi/Navegador-de-mapas' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+								<a href="buscador de setlist.png" data-lightbox="galeria-software" data-title="Actúa como el motor de arranque para la extracción de datos. Es un script diseñado para recibir el nombre de cualquier banda o cantante ingresado por el usuario, realizar la búsqueda dentro del portal de Setlist.fm y localizar automáticamente el perfil oficial del artista para obtener su enlace. <a href='https://github.com/elaletsvessi/Buscador-de-artistas' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+								<a href="comparador de precios.jpg" data-lightbox="galeria-software" data-title="Aplicación web interactiva que permite al usuario ingresar el nombre de un producto y consultar simultáneamente su precio en tres plataformas de comercio electrónico (Mercado Libre, Amazon y Cyberpuerta). El sistema organiza los resultados en columnas comparativas y determina automáticamente cuál es la opción más económica del mercado. <a href='https://github.com/elaletsvessi/Comparador-de-precios' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+								<a href="calculadora.jpg" data-lightbox="galeria-software" data-title="Consiste en una aplicación de escritorio que emula el comportamiento de una calculadora tradicional. El proyecto se centra en la precisión del manejo de datos numéricos, el flujo de la lógica matemática y el diseño de una interfaz limpia e intuitiva basada en botones.. <a href='https://github.com/elaletsvessi/Calculadora' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+								<a href="modificador de imagenes.jpg" data-lightbox="galeria-software" data-title="Aplicación de escritorio orientada al procesamiento digital de imágenes. El proyecto permite al usuario cargar fotografías y aplicarles modificaciones visuales, efectos de color y fusiones de manera interactiva directamente sobre el lienzo del formulario. <a href='https://github.com/elaletsvessi/Editor-de-imagenes' target='_blank' style='color:#18bfef; text-decoration:underline;'>Ver Código en GitHub</a>" style="display: none;"></a>
+                            </article>
+
+                            <!-- Proyecto 3: Diseño de Videojuegos -->
+                            <article>
+                                <header>
+                                    <span class="date">Proyecto Académico</span>
+                                    <h2><a href="javascript:void(0);">The Normal Knight<br /> Arte Conceptual</a></h2>
+                                </header>
+                                
+                                <!-- Imagen sin el target="_blank" -->
+                                <a href="javascript:void(0);" class="image fit"><img src="the normal knight.jpg" alt="Arte del videojuego" /></a>
+                                <p>Diseño de arte conceptual de personajes y escenarios temáticos con restricciones de resolución de 16x16 píxeles.</p>
+                                
+                                <ul class="actions special">
+                                    <li><a href="personaje principal.jpg" data-lightbox="galeria-knight" data-title="Diseño del personaje principal" class="button">Ver Galería</a></li>
+                                </ul>
+
+                                <a href="enemigo.jpg" data-lightbox="galeria-knight" data-title="Bocetos de enemigos" style="display: none;"></a>
+                                <a href="mapa.jpg" data-lightbox="galeria-knight" data-title="Escenario" style="display: none;"></a>
+                                <a href="sprites.jpeg" data-lightbox="galeria-knight" data-title="Sprites 16x16 terminados" style="display: none;"></a>
+                            </article>
+
+                            <!-- Proyecto 4: Emprendimiento -->
+                            <article>
+                                <header>
+                                    <span class="date">Emprendimiento</span>
+                                    <h2><a href="javascript:void(0);">Minifiguras<br />
+                                    Proyecto comercial simulado</a></h2>
+                                </header>
+                                <!-- Imagen sin el target="_blank" -->
+                                <a href="javascript:void(0);" class="image fit"><img src="minifiguras logo.jpg" alt="Proyecto Minifiguras" /></a>
+                                <p>Dirección y estructuración de "Minifiguras", una mini empresa enfocada en la manufactura y comercialización de caramelo macizo y galleta en forma de bloques de lego. Desarrollo integral del plan de negocios y actas constitutivas del proyecto.</p>
+                                <ul class="actions special">
+                                    <!-- Aquí sí dejamos el target="_blank" porque es un enlace real a tu PDF -->
+                                    <li><a href="Entrega final.pdf" target="_blank" class="button">Ver proyecto</a></li>
+                                </ul>
+                            </article>
+
+                            <!-- Proyecto 5: Hardware -->
+                            <article>
+                                <header>
+                                    <span class="date">Hardware</span>
+                                    <h2><a href="javascript:void(0);">Proyectos de hardware<br /> Sistemas embebidos</a></h2>
+                                </header>
+                                <!-- Imagen sin el target="_blank" -->
+                                <a href="javascript:void(0);" class="image fit"><img src="hardware.jpg" alt="Hardware" /></a>
+                                <p>Proyectos de hardware enfocados en el desarrollo de sistemas embebidos utilizando tecnologías como Arduino, ATMega y electrónica de bajo nivel.</p>
+                                <ul class="actions special">
+                                    <li><a href="hardware.jpg" data-lightbox="Proyectos de hardware" data-title="Sistema detector de valores análogicos: Usa pantalla 16 x 2 para el muestreo de info. y lee valores de un potenciometro" class="button">Ver Galería</a></li>
+                                </ul>
+								<a href="calculadora con teclado matricial hexadecimal.jpeg" data-lightbox="Proyectos de hardware" data-title="Calculadora con teclado matricial hexadecimal: Usa una pantalla LCD de 16x2 para mostrar los datos." style="display: none;"></a>
+								<a href="teclado matricial con display 7 segmentos.jpeg" data-lightbox="Proyectos de hardware" data-title="Teclado matricial con display 7 segmentos: Usa un display 7 segmentos para mostrar los datos de valores en hexadecimal." style="display: none;"></a>
+								<a href="sistema lector de contraseña.jpeg" data-lightbox="Proyectos de hardware" data-title="Sistema lector de contraseña: Usa lectura de teclado por medio de puerto serial para ingresar usuario y contraseña y una pantalla LCD de 16x2 para mostrar el estado." style="display: none;"></a>
+								<a href="sumador restador con tablilla de puntas de prueba.jpeg" data-lightbox="Proyectos de hardware" data-title="Sumador restador con tablilla: Usa tablilla con puntas de pruebapara mostrar los datos." style="display: none;"></a>
+								<a href="ADC a DAC usando FPGA.jpeg" data-lightbox="Proyectos de hardware" data-title="ADC a DAC usando FPGA: Usa un FPGA para convertir señales analógicas en digitales y viceversa, tomando como señal de entrada una señal analógica generada por un generador de señales y muestra la salida en un osciloscopio." style="display: none;"></a>
+								<a href="teoria de semiconductores.jpeg" data-lightbox="Proyectos de hardware" data-title="Punto de quiebre de un diodo zener: Explica el funcionamiento de los semiconductores en circuitos electrónicos, se busca el punto de quiebre de un diodo zener." style="display: none;"></a>
+								<a href="fuente de poder regulada.jpeg" data-lightbox="Proyectos de hardware" data-title="Fuente de poder regulada: Se crea una fuente de poder regulada a 5V y a 12V." style="display: none;"></a>
 							
-							<!-- Proyecto 2: Desarrollo y Firmware -->
-							<article>
-								<header>
-									<span class="date">Software y Firmware</span>
-									<h2><a href="#">Optimización de<br />
-									Sistemas y Escritorio</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="Código fuente y hardware" /></a>
-								<p>Desarrollo de aplicaciones de escritorio en C# con rutinas personalizadas para la gestión del sistema de archivos (optimizando la lógica del método guardar). Programación de firmware de bajo nivel en ensamblador AVR utilizando Microchip Studio, implementando soluciones directas y eficientes desde cero sin depender de directivas de macros convencionales.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button">Ver Repositorio</a></li>
-								</ul>
 							</article>
 
-							<!-- Proyecto 3: Diseño de Videojuegos -->
-							<article>
-								<header>
-									<span class="date">Proyecto Académico</span>
-									<h2><a href="#">The Normal Knight<br />
-									Arte Conceptual</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="Arte del videojuego" /></a>
-								<p>Diseño de arte conceptual de personajes y escenarios temáticos. Creación de assets visuales y diseño de sprites estáticos bajo restricciones estrictas de resolución (16x16 píxeles), manteniendo la integridad del diseño original y adaptándolo a las dimensiones requeridas por el motor del juego.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button">Ver Galería</a></li>
-								</ul>
-							</article>
+                        </section>
 
-							<!-- Proyecto 4: Emprendimiento -->
-							<article>
-								<header>
-									<span class="date">Emprendimiento</span>
-									<h2><a href="#">Minifiguras<br />
-									Proyecto comercial simulado</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="Proyecto Minifiguras" /></a>
-								<p>Dirección y estructuración de "Minifiguras", una mini empresa enfocada en la manufactura y comercialización de caramelo macizo y galleta en forma de bloques de lego. Desarrollo integral del plan de negocios y actas constitutivas del proyecto.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button">Ver Proyecto</a></li>
-								</ul>
-							</article>
+                    </div>
 
-							<!-- Proyecto 5: Hardware -->
-							<article>
-								<header>
-									<span class="date">Hardware</span>
-									<h2><a href="#">Proyectos de hardware<br />
-									Sistemas embebidos</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="Proyecto Minifiguras" /></a>
-								<p>Proyectos de hardware enfocados en el desarrollo de sistemas embebidos utilizando tecnologías como Arduino, ATMega y electrónica de bajo nivel.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button">Ver Galería</a></li>
-								</ul>
-							</article>
+                <!-- Footer -->
+                    <footer id="footer">
+                        <section>
+							<h2><a href="javascript:void(0);">Enviame un correo</a></h2>
+                            <form method="POST" action="https://formspree.io/f/mdendjrw">
+                                <div class="fields">
+                                    <div class="field">
+                                        <label for="name">Nombre</label>
+                                        <input type="text" name="name" id="name" required />
+                                    </div>
+                                    <div class="field">
+                                        <label for="email">Correo</label>
+                                        <input type="email" name="email" id="email" required />
+                                    </div>
+                                    <div class="field">
+                                        <label for="message">Mensaje</label>
+                                        <textarea name="message" id="message" rows="3" required></textarea>
+                                    </div>
+                                </div>
+                                <ul class="actions">
+                                    <li><input type="submit" value="Enviar Mensaje" /></li>
+                                </ul>
+                            </form>
+                        </section>
+                        <section class="split contact">
+                            <section class="alt">
+                                <h3>Ubicación</h3>
+                                <p>San Luis Potosí, S.L.P.<br />
+                                México</p>
+                            </section>
+                            <section>
+                                <h3>Teléfono</h3>
+                                <p><a href="tel:+528137010676">(813) 701-0676</a></p>
+                            </section>
+                            <section>
+                                <h3>Correo</h3>
+                                <p><a href="mailto:alex-30992011@hotmail.com">alex-30992011@hotmail.com</a></p>
+                            </section>
+                            <section>
+                                <h3>Redes Sociales</h3>
+                                <ul class="icons alt">
+                                    <li><a href="https://www.linkedin.com/in/alex-vessi-10bb643b2/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://github.com/elaletsvessi" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                                </ul>
+                            </section>
+                        </section>
+                    </footer>
 
-						</section>
+                <!-- Copyright -->
+                    <div id="copyright">
+                        <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+                    </div>
 
-						<!-- Footer -->
-						<!--	<footer>
-								<div class="pagination">
-									<a href="#" class="previous">Prev</a>
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>  -->
+            </div>
 
-					</div>
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="POST" action="https://formspree.io/f/mdendjrw">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Nombre</label>
-										<input type="text" name="name" id="name" required />
-									</div>
-									<div class="field">
-										<label for="email">Correo</label>
-										<input type="email" name="email" id="email" required />
-									</div>
-									<div class="field">
-										<label for="message">Mensaje</label>
-										<textarea name="message" id="message" rows="3" required></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Enviar Mensaje" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Ubicación</h3>
-								<p>San Luis Potosí, S.L.P.<br />
-								México</p>
-							</section>
-							<section>
-								<h3>Teléfono</h3>
-								<!-- Cambia los ceros por tu número real, o borra esta sección si prefieres no ponerlo -->
-								<p><a href="tel:+524440000000">(813) 701-0676</a></p>
-							</section>
-							<section>
-								<h3>Correo</h3>
-								<p><a href="mailto:tu-correo@gmail.com">alex-30992011@hotmail.com</a></p>
-							</section>
-							<section>
-								<h3>Redes Sociales</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/alex-vessi-10bb643b2/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/elaletsvessi" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-					</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    </body>
 </html>
